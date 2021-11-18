@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .home {
   width: 100vw;
   height: 100vh;
@@ -16,14 +16,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  a {
-    font-size: 1.1618rem;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+}
+.home a {
+  font-size: 1.1618rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+.home a:hover {
+  text-decoration: underline;
 }
 </style>

@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 #idea1 {
   width: 100vw;
   height: 100vh;

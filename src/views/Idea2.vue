@@ -90,17 +90,17 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 #idea2 {
   width: 100vw;
   height: 100vh;
   background-color: #000;
   position: relative;
-  .video-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+}
+.video-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
